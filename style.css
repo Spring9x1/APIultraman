@@ -1,0 +1,111 @@
+/* Reset & Base Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  body {
+    background: url('./your-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  /* General Bubble Style */
+  .bubble {
+    background-color: rgba(0, 0, 0, 0.65);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 20px 30px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    width: 90%;
+    max-width: 500px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Bubble 1 - Title + Subtitle */
+  .bubble.title {
+    text-align: center;
+  }
+  
+  .bubble.title h1 {
+    font-size: 1.8rem;
+    color: #b2e5ff;
+  }
+  
+  .bubble.title p {
+    font-size: 1rem;
+    color: #d0eaff;
+    margin-top: 5px;
+  }
+  
+  /* Bubble 2 - Profile */
+  .bubble.profile h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #ffaaff;
+  }
+  
+  .bubble.profile p {
+    margin-bottom: 5px;
+  }
+  
+  /* Bubble 3 - List Ultraman */
+  .bubble.list h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #c0ffb2;
+  }
+  
+  .bubble.list ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .bubble.list li {
+    padding: 8px 12px;
+    margin-bottom: 6px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+  }
+  
+  .bubble.list li:hover {
+    background-color: #ffffff33;
+  }
+  
+/* Center tombolnya */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Tombolnya nyambung tema tapi standout */
+  #loadData {
+    padding: 10px 24px;
+    font-size: 16px;
+    background-color: #3179f6;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(49, 121, 246, 0.6);
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  #loadData:hover {
+    background-color: #255ec4;
+    transform: scale(1.05);
+  }
+  
+  

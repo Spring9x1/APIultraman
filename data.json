@@ -1,0 +1,61 @@
+{
+    "judul": "Ini Adalah Title Dari Aplikasi",
+     "deskripsi" : "Ini Adalah Sub Judul Dari Aplikasi",
+     "profile" : {
+        "name": "Kotaro Minami",
+        "job": "Satria Baja Hitam",
+        "address": "Planet Nibiru"
+     },
+     "list": [
+        {
+            "id": "A001",
+            "name": "Ultraman Tiga",
+            "alamat": "Kampung Bintang"
+        },
+        {
+            "id": "A002", 
+            "name": "Ultraman Dyna",
+            "alamat": "Pedindang"
+        },
+        {
+            "id": "A003",
+            "name": "Ultraman Gaia",
+            "alamat": "Kampak Belakang POM"
+        },
+        {
+            "id": "A004",
+            "name": "Ultraman Cosmos",
+            "alamat": "Tua Tunu Indah"
+        },
+        {
+            "id": "A005",
+            "name": "Ultraman Nexus",
+            "alamat": "Bukit Baru dekat Stadion"
+        },
+        {
+            "id": "A006",
+            "name": "Ultraman Max",
+            "alamat": "Desa Kenanga Sungailiat"
+        },
+        {
+            "id": "A007",
+            "name": "Ultraman Mebius",
+            "alamat": "Kampung Cit"
+        },
+        {
+            "id": "A008",
+            "name": "Ultraman Zero",
+            "alamat": "Paya Benua Merdeka"
+        },
+        {
+            "id": "A009",
+            "name": "Ultraman Ginga",
+            "alamat": "Lapangan Golf Girimaya"
+        },
+        {
+            "id": "A010",
+            "name": "Ultraman X",
+            "alamat": "Parit Lalang Bersatu"
+        }
+     ]
+}
